@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import AppRouter from './AppRouter';
 import './App.css';
+
+
+
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>YoBlock!</h2>
-          <div></div>
-        </header>
+    return(
+      <div>
+        <AppRouter/>
       </div>
-    );
+      );
   }
 }
 
-export default App;
+export default App; 

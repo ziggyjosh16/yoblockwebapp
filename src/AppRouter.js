@@ -6,6 +6,7 @@ import Route1 from './routes/Route1';
 import Route2 from './routes/Route2';
 import Route3 from './routes/Route3';
 
+//test comment
 const AppRouter = () => (
     <Router>
         <div className="App">

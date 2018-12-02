@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import logo from './media/logo.svg';
-import Route1 from './routes/Route1';
+import Home from './routes/Home/';
 import Route2 from './routes/Route2';
 import Route3 from './routes/Route3';
+//import TiHomeOutline from 'react-icons/lib/ti/home-outline';
 
 //test comment
 const AppRouter = () => (
@@ -20,7 +21,7 @@ const AppRouter = () => (
                         </div>
                         
                 </div>
-        <Route path="/" exact component={Route1} />
+        <Route path="/" exact component={Home} />
         <Route path="/about/" component={Route2} />
         <Route path="/users/" component={Route3} />
         </div>

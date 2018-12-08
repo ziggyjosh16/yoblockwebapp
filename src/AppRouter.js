@@ -7,7 +7,6 @@ import Route2 from './routes/Route2'
 import ProfilePage from './routes/ProfilePage/'
 import ContractDetail from './routes/ContractDetail/'
 import ContractTable from './routes/ContractTable/'
-//import TiHomeOutline from 'react-icons/lib/ti/home-outline';
 
 // test comment
 const AppRouter = () => (
@@ -19,7 +18,7 @@ const AppRouter = () => (
         <div>
           <a href='/'>  Home  </a>
           <a href='/about/'>  About  </a>
-          <a href='/users/'>  Profile  </a>
+          <a href='/profile/'>  Profile  </a>
         </div>
       </div>
       <Route path='/' exact component={Home} />

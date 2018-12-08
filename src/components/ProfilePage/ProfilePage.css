@@ -1,0 +1,40 @@
+.profile-main{
+width: 80%;
+height: 100vh;
+margin: 0 auto;
+border-left: 1px solid #e7dfdd;
+border-right: 1px solid #e7dfdd;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.profile-main > div {
+    width: 80%; 
+    padding-bottom: 50px;
+}
+h3 {
+    text-align: left;
+}
+table.purpleHorizon {
+width: 100%;
+text-align: left;
+border-collapse: collapse;
+}
+table.purpleHorizon td, table.purpleHorizon th {
+border-bottom: 1px solid #4717f6;
+padding: 6px 3px;
+}
+table.purpleHorizon tbody td {
+font-size: 13px;
+color: #E7DFDD;
+width: 33%;
+}
+table.purpleHorizon thead th {
+font-size: 13px;
+color: #E7DFDD;
+text-align: left;
+letter-spacing: 2px;
+width: 33%;
+
+}
+

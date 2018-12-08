@@ -1,0 +1,31 @@
+.main {
+  background-color: #0e0b16;
+}
+.slider {
+  background-color:#0e0b16;
+  border-bottom: 5px solid #4717f6;
+  border-top: 5px solid #4717f6;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: #e7dfdd;
+  font-size: 30px;
+}
+.hero-banner{
+  background-color: #e7dfdd;
+  height: 400px;
+  width: 100%;
+}
+.overlay-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.category-table{
+  width: 80%;
+  margin: auto;
+}
+
+

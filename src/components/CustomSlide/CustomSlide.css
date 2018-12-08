@@ -1,0 +1,15 @@
+.image{
+    position: absolute;
+    top: -225;
+    display: block;
+    max-width:100%;
+    max-height:90%;
+    width: auto;
+    height: auto;
+    opacity: 0.6;
+}
+.slide{
+    position: relative;
+    height: 1500px;
+    width: 500px;
+}

@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+}
+.table-main{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.header{
+    border-bottom: 12px solid #4717f6;
+    color: #e7dfdd;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding-bottom: 100px;
+}
+.contract-card{
+    background-color: #e7dfdd;
+    transition: 0.3s;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.contract-card-link{
+    height: 200px;
+    width: 45%;
+    margin: 20px 20px;
+    box-shadow: 0 4px 8px 0  #4717f6;
+}
+.card-description{
+    width: 50%;
+    height: 90%;
+    left: 50%;
+    text-align: left;
+    word-spacing: 2px;
+}
+.progress-circle{
+    width: 30%;
+    height: 50%;
+    top: 50%;
+}

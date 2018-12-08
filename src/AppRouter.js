@@ -4,8 +4,10 @@ import './App.css'
 import logo from './media/logo.svg'
 import Home from './routes/Home/'
 import Route2 from './routes/Route2'
-import Route3 from './routes/Route3'
-// import TiHomeOutline from 'react-icons/lib/ti/home-outline';
+import ProfilePage from './routes/ProfilePage/'
+import ContractDetail from './routes/ContractDetail/'
+import ContractTable from './routes/ContractTable/'
+//import TiHomeOutline from 'react-icons/lib/ti/home-outline';
 
 // test comment
 const AppRouter = () => (
@@ -13,16 +15,18 @@ const AppRouter = () => (
     <div className='app'>
       <div className='app-header'>
         <img src={logo} className='app-logo' alt='logo' />
-        <h4>Backer</h4>
+        <a href='/'><h3>BACKER</h3></a>
         <div>
-          <button><a href='/'>Home</a></button>
-          <button><a href='/about/'>About</a></button>
-          <button><a href='/users/'>Users</a></button>
+          <a href='/'>  Home  </a>
+          <a href='/about/'>  About  </a>
+          <a href='/users/'>  Profile  </a>
         </div>
       </div>
       <Route path='/' exact component={Home} />
       <Route path='/about/' component={Route2} />
-      <Route path='/users/' component={Route3} />
+      <Route path='/profile/' component={ProfilePage} />
+      <Route path='/contract/:title' component={ContractDetail} />
+      <Route path='/categories/:category' component={ContractTable} />
     </div>
   </Router>
 )

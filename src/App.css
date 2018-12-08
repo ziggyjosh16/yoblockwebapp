@@ -15,8 +15,10 @@
   display: inline-flex;
   justify-content: space-between;
   text-align: justify;
-  color: #a239ca;
-  font-size: 18px;
+}
+.app-header > h3 {
+  font-size: 24px;
+  letter-spacing: 4px;
 }
 
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Circle } from 'rc-progress'
-import { hashCode } from '../../utils/'
 import contracts from '../../mock/contracts'
 import './ContractTable.css'
 

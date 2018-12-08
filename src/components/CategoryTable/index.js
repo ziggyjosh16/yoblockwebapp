@@ -5,6 +5,7 @@ export default class CategoryTable extends Component {
   render () {
     return (
       <div className='categeory-table'>
+        <h2>Browse Music Categories</h2>
         {categories.map(c => Category(c))}
       </div>
     )

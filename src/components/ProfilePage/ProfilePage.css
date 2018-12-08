@@ -12,7 +12,7 @@ justify-content: center;
     width: 80%; 
     padding-bottom: 50px;
 }
-h3 {
+h3, h2{
     text-align: left;
 }
 table.purpleHorizon {
@@ -25,12 +25,12 @@ border-bottom: 1px solid #4717f6;
 padding: 6px 3px;
 }
 table.purpleHorizon tbody td {
-font-size: 13px;
+font-size: 18px;
 color: #E7DFDD;
 width: 33%;
 }
 table.purpleHorizon thead th {
-font-size: 13px;
+font-size: 18px;
 color: #E7DFDD;
 text-align: left;
 letter-spacing: 2px;

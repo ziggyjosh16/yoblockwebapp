@@ -6,6 +6,7 @@
     justify-content: center;
     text-align: left;
     color: #e7dfdd;
+    font-weight: bolder;
     -webkit-text-stroke: 1px black;
     transition: height 0.5s, font-size 0.1s;
 }
@@ -14,6 +15,7 @@
     font-size: 30px;
 }
 .category-table{
+    padding-top: 15px;
     width: 80%;
     margin: auto;
 

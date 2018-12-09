@@ -8,6 +8,10 @@ export default class ProfilePage extends Component {
       <div className='profile-main'>
         <div>
           <h2>Profile</h2>
+          <h3>Your Wallet Address</h3>
+          <a href='https://etherscan.io/address/0xF016AFA01322D0F415dDFB6d1049b9CaD26360F3'>
+            0xF016AFA01322D0F415dDFB6d1049b9CaD26360F3
+          </a>
         </div>
         <div className='contribution-table'>
           <h3>Your Contributions</h3>

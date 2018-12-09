@@ -21,6 +21,8 @@
 .category-table{
   width: 80%;
   margin: auto;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #e7dfdd;
 }
 
 

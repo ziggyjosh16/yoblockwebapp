@@ -1,17 +1,16 @@
 export default [
   {
     creator: 'Apoorv Prasad',
-    area: 'Full Stack Tutorials',
+    category: 'Other',
     id: 123423,
     contributors: 15,
     target: 10,
     raised: 1.2,
-    description: 'I am raising money to buy equipment for creating' +
-         ' video tutorials for full stack development on youtube.'
+    description: 'I am raising money to rent a bus to go on tour! The top contributing cities will be the cities I perform in!'
   },
   {
     creator: 'Ling Tong and Gang',
-    area: 'Music',
+    category: 'Rock',
     id: 651615,
     contributors: 15,
     target: 5,
@@ -20,16 +19,43 @@ export default [
   },
   {
     creator: 'Joshua Sharkey',
-    area: '',
+    category: 'EDM',
     id: 316515,
     contributors: 15,
     target: 15,
     raised: 0.1,
+    description: 'What\'s up guys, Got a new CS:GO soundtrack coming at you!'
+  },
+  {
+    creator: 'Susan Adams',
+    category: 'Hip-Hop',
+    id: 651435651,
+    contributors: 15,
+    target: 20,
+    raised: 17,
     description: ''
   },
   {
-    creator: 'Susan Mccroy',
-    area: 'Blockchain Consulting',
+    creator: 'Dil Mccroy',
+    category: 'Holiday',
+    id: 651633451,
+    contributors: 15,
+    target: 20,
+    raised: 17,
+    description: 'New Christmas Single'
+  },
+  {
+    creator: 'Duan Noble',
+    category: 'World',
+    id: 651651,
+    contributors: 15,
+    target: 20,
+    raised: 17,
+    description: 'Raising money for a fundraising concert '
+  },
+  {
+    creator: 'Mark Ford',
+    category: 'Holiday',
     id: 651651,
     contributors: 15,
     target: 20,
@@ -37,17 +63,8 @@ export default [
     description: ''
   },
   {
-    creator: 'Susan Mccroy',
-    area: 'Blockchain Consulting',
-    id: 651651,
-    contributors: 15,
-    target: 20,
-    raised: 17,
-    description: ''
-  },
-  {
-    creator: 'Susan Mccroy',
-    area: 'Blockchain Consulting',
+    creator: 'Kenny Chase',
+    category: 'Country',
     id: 651651,
     contributors: 15,
     target: 20,

@@ -15,10 +15,9 @@ export default class ContractDetail extends Component {
           <h1>{area}</h1><br />
           <h2>Creator: {creator}</h2><br />
           {description}<br />
-          <button>contribute</button>
         </div>
         <div className='contract-detail-sidebar'>
-          <Circle className='progress-circle'
+          <Circle className='circle'
             percent={((raised / target) * 100).toString()}
             strokeWidth='8'
             trailWidth='5'
@@ -31,7 +30,7 @@ export default class ContractDetail extends Component {
           <div className='button'>Contribute</div>
           <div className='button'>Share</div>
           <div className='recent-donations'>
-            Recent Donations:
+            <h3>Recent Donations</h3>
             {
               Array.from(Array(10)).map(
                 i => <Contribution key={i} target={target} />)
@@ -47,10 +46,10 @@ export default class ContractDetail extends Component {
 const Contribution = (target) => {
   console.log(target)
   let amount = Math.random() * (parseInt(target.target) / 2)
-  return(
-    <div>
-      <b>{amount}</b> Ether
-       Anonymous
+  return (
+    <div className='contribution'>
+      <b>{amount}</b> Ether <br />
+      Anonymous
     </div>
   )
 }

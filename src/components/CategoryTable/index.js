@@ -14,7 +14,8 @@ export default class CategoryTable extends Component {
 const categories = [
   'Rock',
   'Pop',
-  'Rap/Hip-Hop',
+  'Rap',
+  'Hip-Hop',
   'Country',
   'EDM',
   'House',
@@ -25,7 +26,7 @@ const categories = [
 ]
 const Category = (category) => {
   return (
-    <a href={`\\categories\\{category}`}>
+    <a href={`\\categories\\${category}`}>
       <div className='category-button'>
         {category}
       </div>
